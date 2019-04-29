@@ -1,0 +1,6 @@
+.idea
+
+tests/coverage
+vendor
+
+composer.phar
