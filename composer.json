@@ -1,0 +1,21 @@
+{
+    "name": "mathobsessed/technopark_test",
+    "authors": [
+        {
+            "name": "Ernest Lebedev",
+            "email": "allesverloren133@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Delivery\\": "lib/"
+        }
+    },
+    "require": {
+        "moneyphp/money": "^3.2",
+        "php" : "^7.2.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}

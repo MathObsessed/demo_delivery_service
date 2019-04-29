@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="bootstrap.php" cacheResult="false" colors="true">
+    <testsuite name='All tests'>
+        <directory suffix='.php'>.</directory>
+    </testsuite>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../lib</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="coverage"/>
+    </logging>
+</phpunit>
